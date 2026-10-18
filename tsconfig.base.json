@@ -1,0 +1,20 @@
+{
+  // Deliberately does not extend @react-native/typescript-config: `extends` is
+  // resolved relative to this file, and under pnpm's isolated layout that
+  // package is only linked inside each workspace package, not at the root.
+  // Everything RN's config would set that we care about is spelled out here.
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

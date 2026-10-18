@@ -1,0 +1,240 @@
+steps:
+  - echo: Restart Jinnie and wait for Home before preparing sample screenshots.
+  - launch: com.jinnie.app
+  - await:
+      visible:
+        text: Net worth in PHP
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: From Home, open Settings to load the built-in sample household.
+  - tap:
+      text: Settings
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Help & setup
+      timeout: 10000
+  - await:
+      idle: true
+  - echo: Open the sample-data sheet and add the built-in Reyes household for
+      screenshots.
+  - tap:
+      text: Preview every app with the Reyes household. Your own records are
+        untouched.
+  - await:
+      idle: true
+  - tap:
+      text: Load sample data
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: "Sample data loaded: Reyes household"
+      timeout: 10000
+  - await:
+      idle: true
+  - echo: Return to the launcher and open each app to capture its genuine Android
+      screen.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Open all apps
+  - await:
+      idle: true
+  - echo: Open Budget and capture its monthly category overview.
+  - tap:
+      text: Budget
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Category plan
+      timeout: 10000
+  - await:
+      idle: true
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Insights
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Money rhythm
+      timeout: 15000
+  - await:
+      idle: true
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Subscriptions
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Add subscription
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Open Credit to capture card balances, limits, and due dates.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Credit
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Healthy utilisation
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Open Learn and inspect its actual learning screen.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Learn
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: How old are you?
+      timeout: 15000
+  - await:
+      idle: true
+  - tap:
+      text: Back
+  - await:
+      idle: true
+  - echo: Scroll the launcher to reveal community apps.
+  - scroll-to:
+      target:
+        text: Open Goals
+      direction: down
+  - echo: Open Goals to show savings targets and progress.
+  - tap:
+      text: Goals
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Add goal
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Open Debts to capture money owed and repayment tracking.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Debts
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Owed to you
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Open Circles to capture the sample rotating savings group.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Open Circles
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Create group
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Open Remit to capture transfer planning and recorded remittances.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text: Open Remit
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Log remittance
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Reveal Shared and capture the sample household expense groups.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: COMMUNITY
+      timeout: 10000
+  - await:
+      idle: true
+  - scroll-to:
+      target:
+        text: Open Shared
+      direction: down
+  - tap:
+      text: Shared
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: New group
+      timeout: 15000
+  - await:
+      idle: true
+  - echo: Return Home, remove only the temporary sample household, and leave the
+      device as it started.
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true
+  - tap:
+      text:
+        matches: ^Home$
+      role: View
+  - await:
+      idle: true
+  - tap:
+      text: Settings
+  - await:
+      idle: true
+  - tap:
+      text: Reyes household · Quezon City · loaded across every app
+  - await:
+      idle: true
+  - tap:
+      text: Remove sample data
+  - await:
+      idle: true
+  - await:
+      visible:
+        text: Load sample data
+      timeout: 10000
+  - await:
+      idle: true
+  - tap:
+      text: Back to launcher
+  - await:
+      idle: true

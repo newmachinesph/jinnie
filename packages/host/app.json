@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Jinnie",
+    "slug": "jinnie",
+    "scheme": "jinnie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#4338CA",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.jinnie.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.jinnie.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#312E81"
+      }
+    },
+    "plugins": [
+      "./plugins/withRepackBundleEntry",
+      "./plugins/withLocalhostCleartext",
+      "expo-system-ui",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#1E1B4B",
+          "dark": {
+            "backgroundColor": "#0B0B14"
+          }
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Jinnie uses Face ID to unlock your finances."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}

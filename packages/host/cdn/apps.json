@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "accounts",
+      "name": "Accounts",
+      "description": "Banks, e-wallets, cards, cash, and currencies in one view.",
+      "icon": "IconBank",
+      "tone": "blue",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/accounts/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "description": "Record income and expenses. Works entirely offline.",
+      "icon": "IconWallet",
+      "tone": "indigo",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/wallet/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "bills",
+      "name": "Bills",
+      "description": "Recurring dues with due dates. Payments post to your Wallet.",
+      "icon": "IconReceipt",
+      "tone": "sky",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/bills/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "budget",
+      "name": "Budget",
+      "description": "Set monthly category limits and see what is left to spend.",
+      "icon": "IconBudget",
+      "tone": "gold",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/budget/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "insights",
+      "name": "Insights",
+      "description": "Understand cash flow, category spending, and savings signals.",
+      "icon": "IconChart",
+      "tone": "violet",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/insights/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "subscriptions",
+      "name": "Subscriptions",
+      "description": "Every recurring service, its renewal date, and the true monthly cost.",
+      "icon": "IconRepeat",
+      "tone": "rose",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/subscriptions/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "credit",
+      "name": "Credit",
+      "description": "Card utilisation, statement and due days, and payments in one place.",
+      "icon": "IconCard",
+      "tone": "indigo",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/credit/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "learn",
+      "name": "Learn",
+      "description": "Build money confidence with six learning paths, practical lessons, and scam drills.",
+      "icon": "IconEducation",
+      "tone": "indigo",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/learn/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "description": "Sample data, catalogs, and help for this build.",
+      "icon": "IconSettings",
+      "tone": "slate",
+      "kind": "system",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/settings/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "PIN lock, privacy, backups, and local data.",
+      "icon": "IconShield",
+      "tone": "slate",
+      "kind": "core",
+      "author": "Jinnie",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/security/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "goals",
+      "name": "Goals",
+      "description": "Savings goals with targets, deadlines, and challenge presets.",
+      "icon": "IconTarget",
+      "tone": "amber",
+      "kind": "community",
+      "author": "Jinnie Community",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/goals/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "debts",
+      "name": "Debts",
+      "description": "Money you are owed and money you owe, settled cleanly.",
+      "icon": "IconScale",
+      "tone": "rose",
+      "kind": "community",
+      "author": "Jinnie Community",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/debts/{platform}/mf-manifest.json",
+      "grants": [
+        "wallet:post"
+      ]
+    },
+    {
+      "id": "circles",
+      "name": "Circles",
+      "description": "Manage a rotating savings group: members, rounds, payouts.",
+      "icon": "IconCircleGroup",
+      "tone": "emerald",
+      "kind": "community",
+      "author": "Jinnie Community",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/circles/{platform}/mf-manifest.json"
+    },
+    {
+      "id": "remit",
+      "name": "Remit",
+      "description": "A clean log of remittances sent and received, fees included.",
+      "icon": "IconSend",
+      "tone": "sky",
+      "kind": "community",
+      "author": "Jinnie Community",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/remit/{platform}/mf-manifest.json",
+      "grants": [
+        "wallet:post"
+      ]
+    },
+    {
+      "id": "shared",
+      "name": "Shared",
+      "description": "Split trips, rent, and group costs; see who owes whom and settle up.",
+      "icon": "IconUsers",
+      "tone": "emerald",
+      "kind": "community",
+      "author": "Jinnie Community",
+      "version": "1.0.0",
+      "sdk": "1.2.0",
+      "remote": "{origin}/shared/{platform}/mf-manifest.json"
+    }
+  ]
+}

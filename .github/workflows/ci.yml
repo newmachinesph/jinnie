@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Typecheck and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+
+  android:
+    name: Android release APK
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - run: pnpm install --frozen-lockfile
+      # The native project is generated, never committed.
+      - run: npx expo prebuild --platform android --no-install
+        working-directory: packages/host
+      # Every mini app is a release bundle of its own; build them so a broken
+      # container fails here rather than on a phone.
+      - run: |
+          for app in accounts wallet bills budget insights settings subscriptions credit goals debts circles remit shared learn security; do
+            pnpm --filter @jinnie/$app exec react-native bundle --platform android --entry-file index.js --dev false --bundle-output build/android/index.bundle
+          done
+      - run: ./gradlew assembleRelease --no-daemon
+        working-directory: packages/host/android
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jinnie-release-apk
+          path: packages/host/android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error

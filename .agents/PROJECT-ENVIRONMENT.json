@@ -1,0 +1,42 @@
+{
+  "inspection_date": "2026-09-11",
+  "graph": {"available": false, "reason": "Transport closed", "project": null, "generation": null},
+  "jinnie": {
+    "workspace": "C:/dev/jinnie",
+    "project_type": "React Native with Expo prebuild and Re.Pack Module Federation",
+    "is_react_native": true, "is_native_ios": false, "is_native_android": false,
+    "react_native_version": "0.86.3", "expo_version": "~57.0.18",
+    "platforms": ["android", "ios"], "host": "packages/host", "package_manager": "pnpm@11.20.0",
+    "commands": {"start": "pnpm.cmd start", "typecheck": "pnpm.cmd typecheck", "test": "pnpm.cmd test", "cdn": "pnpm.cmd --filter @jinnie/host cdn"},
+    "ports": {"host": 8081, "cdn": 9020, "mini_apps": "9001-9014"},
+    "native_build": {"android_directory": "packages/host/android", "ios_directory": false, "prior_apk_includes_integration": true}
+  },
+  "jinnie_web": {
+    "workspace": "C:/dev/jinnie-web", "project_type": "Next.js",
+    "is_react_native": false, "is_native_ios": false, "is_native_android": false,
+    "next_version": "16.3.4",
+    "commands": {"build": "pnpm.cmd build", "lint": "pnpm.cmd lint", "preview": "pnpm.cmd start --port 3010"}
+  },
+  "machine": {"os": "Windows", "node": "24.18.0", "pnpm": "11.20.0", "java": "17", "android_sdk": "C:/Users/Developer/AppData/Local/Android/Sdk", "android_platforms": ["android-36", "android-37.0"]},
+  "constraints": [
+    "Do not stop unrelated listeners: 3000 kypstamping Next, 8081 kypstamping Expo, 9001 Docker/WSL.",
+    "4173 is the existing finlit preview.", "Use an alternate native dev port such as 8082.",
+    "Native iOS compilation/runtime cannot be verified on this Windows host; iOS JavaScript bundles can be built.", "No commits or staging authorized."
+  ],
+  "integration": {
+    "course_revision": "f4b83b9e8986", "course_revision_scope": "Media SHA-256 revision from public/learn-assets/build-info.json; Next.js versions the application separately.",
+    "prior_static_course_revision": "e02bd2f670c1", "native_package": "@jinnie/learn", "native_sdk": "1.1.0",
+    "currency_narration": "544 clips regenerated with Philippine peso/piso wording; 8 video soundtracks updated with unchanged video frames and caption words. All 50 course tests and 552 audio decode checks passed.",
+    "course_source": "C:/dev/jinnie-web/learn", "native_course_url": "https://learn.jinnie.ph/?embed=native",
+    "course_renderer": "Next.js App Router in src/app/learn with React screens in src/components/learn. The persistent LearnProvider hydrates the shared progress store before rendering; individual activity widgets are mounted and disposed by React.",
+    "course_media_pipeline": "learn/scripts/build.mjs publishes media only into ignored public/learn-assets through an exclusive lock, validated staging, SHA-256 inventory and rollback-safe swap. Root pnpm build creates Next.js and its service worker; standalone HTML, hash router, vanilla player and static application output are retired.",
+    "course_content": {"paths": 6, "lessons": 48, "bites": 255, "narration_clips": 1914, "localized_videos": 12},
+    "web_route": "https://learn.jinnie.ph/", "web_preview": "http://learn.localhost:3010/",
+    "hosting": "Configured in code; learn.jinnie.ph has no DNS record, and the local Vercel project link is stale.",
+    "legacy_native_assets": "Unreferenced and gitignored; deletion blocked by automatic approval review.",
+    "hosted_native_runtime_qa": "Next.js React course runtime on device is pending. Earlier static-course Android bridge, persistence, Wallet navigation and share-sheet checks passed; they do not verify the new renderer. Automatic approval review blocked restarting the Learn dev server with the local website URL; do not retry that blocked mutation.",
+    "native_learn_verification": {"tests": "All 9 protocol/history/visibility tests passed", "typecheck": "Learn and host passed", "android_js_bundle": "passed with current Next.js route guard/history wrapper", "ios_js_bundle": "passed with current Next.js route guard/history wrapper", "cdn_pack": "passed; contains wrapper bundles and no course media"},
+    "android_debug_build": "passed", "android_apk": "packages/host/android/app/build/outputs/apk/debug/app-debug.apk",
+    "native_dev_port": 8082, "website_build_and_browser_qa": "Next.js React migration verification is in progress; earlier static-hosting build/browser checks passed.", "committed": false
+  }
+}

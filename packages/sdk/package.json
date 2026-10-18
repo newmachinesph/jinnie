@@ -1,0 +1,51 @@
+{
+  "name": "@jinnie/sdk",
+  "version": "1.2.0",
+  "description": "Jinnie mini-app SDK: host bridge, platform stores, catalogs, and the UI kit.",
+  "private": true,
+  "main": "index.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "react-native": "./src/index.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "lib",
+    "src",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./scripts/test-register.mjs --test \"src/__tests__/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "peerDependencies": {
+    "@noble/ciphers": "*",
+    "@noble/hashes": "*",
+    "expo-crypto": "*",
+    "expo-modules-core": "*",
+    "expo-local-authentication": "*",
+    "expo-secure-store": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "@react-native-community/netinfo": "*",
+    "react": "catalog:peer",
+    "react-native": "catalog:peer",
+    "react-native-safe-area-context": "catalog:peer",
+    "react-native-svg": "catalog:peer",
+    "zustand": "catalog:peer"
+  },
+  "devDependencies": {
+    "@noble/ciphers": "catalog:",
+    "@noble/hashes": "catalog:",
+    "@react-native/typescript-config": "catalog:",
+    "@types/node": "^22.15.3",
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "typescript": "catalog:",
+    "zustand": "catalog:"
+  }
+}

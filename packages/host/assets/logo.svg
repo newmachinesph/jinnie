@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" color="#4338CA" fill="none"
+     stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <title>Jinnie</title>
+  <!--
+    The Jinnie mark: a genie lamp carrying 金 (jin) — gold, wealth — the same
+    lamp the Learn course draws (jinnie-web/learn/assets/artwork.js).
+
+    This file is a reference copy. The mark that actually ships is drawn from
+    LAMP_PATHS / LAMP_PLATES / JIN_PATH in packages/sdk/src/icons, and
+    rasterised into the launcher icons by packages/host/scripts/make-icons.mjs.
+    Keep all three in step.
+  -->
+  <g fill="currentColor" opacity="0.12" stroke="none">
+    <path d="M27 67h59c5 0 10-5 18-16l-4 21-14 7c-4 12-15 19-30 19-17 0-28-11-29-31Z"/>
+    <path d="M34 66c3-20 38-20 45 0Z"/>
+  </g>
+  <path d="M27 67h59c5 0 10-5 18-16l-4 21-14 7c-4 12-15 19-30 19-17 0-28-11-29-31Z"/>
+  <path d="M28 72C7 73 9 51 22 54c6 1 7 6 6 10M34 66c3-10 11-15 22-15s19 5 23 15M52 51v-5a4 4 0 0 1 8 0v5M45 99l-3 6h29l-4-6"/>
+  <path d="M54 33c-8-9 10-10 3-20M72 37c-4-6 7-8 5-14"/>
+  <!-- 金, drawn as strokes so it never depends on a CJK font being present -->
+  <path d="m47 78 10-7 10 7M51 79h12M49 84h16M57 79v14M50 87l2 3m12-3-2 3M47 94h20" stroke="#D4AF37" stroke-width="2.2"/>
+</svg>

@@ -1,0 +1,54 @@
+# One dev server per federated bundle. The host resolves each mini app from its
+# own port at runtime, so a mini app can be restarted without touching the host.
+procs:
+  CDN:
+    shell: pnpm --filter @jinnie/host cdn
+    stop: SIGKILL
+  Host:
+    shell: pnpm --filter @jinnie/host start
+    stop: SIGKILL
+  Accounts:
+    shell: pnpm --filter @jinnie/accounts start
+    stop: SIGKILL
+  Wallet:
+    shell: pnpm --filter @jinnie/wallet start
+    stop: SIGKILL
+  Bills:
+    shell: pnpm --filter @jinnie/bills start
+    stop: SIGKILL
+  Budget:
+    shell: pnpm --filter @jinnie/budget start
+    stop: SIGKILL
+  Insights:
+    shell: pnpm --filter @jinnie/insights start
+    stop: SIGKILL
+  Settings:
+    shell: pnpm --filter @jinnie/settings start
+    stop: SIGKILL
+  Goals:
+    shell: pnpm --filter @jinnie/goals start
+    stop: SIGKILL
+  Debts:
+    shell: pnpm --filter @jinnie/debts start
+    stop: SIGKILL
+  Circles:
+    shell: pnpm --filter @jinnie/circles start
+    stop: SIGKILL
+  Remit:
+    shell: pnpm --filter @jinnie/remit start
+    stop: SIGKILL
+  Subscriptions:
+    shell: pnpm --filter @jinnie/subscriptions start
+    stop: SIGKILL
+  Credit:
+    shell: pnpm --filter @jinnie/credit start
+    stop: SIGKILL
+  Learn:
+    shell: pnpm --filter @jinnie/learn start
+    stop: SIGKILL
+  Security:
+    shell: pnpm --filter @jinnie/security start
+    stop: SIGKILL
+  Shared:
+    shell: pnpm --filter @jinnie/shared start
+    stop: SIGKILL

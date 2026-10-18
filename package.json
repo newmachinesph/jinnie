@@ -1,0 +1,23 @@
+{
+  "name": "jinnie",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": "^22.13.0 || >=24.3.0"
+  },
+  "scripts": {
+    "start": "mprocs -c mprocs/host.yaml",
+    "prebuild": "pnpm --filter @jinnie/host prebuild",
+    "android": "pnpm --filter @jinnie/host android",
+    "ios": "pnpm --filter @jinnie/host ios",
+    "test": "pnpm --filter @jinnie/sdk test && pnpm --filter @jinnie/learn test && pnpm --filter @jinnie/host test:cdn",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "mprocs": "^0.9.6",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  }
+}

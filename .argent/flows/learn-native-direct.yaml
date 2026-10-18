@@ -1,0 +1,20 @@
+﻿executionPrerequisite: Android with the rebuilt Jinnie debug app installed, host onboarding complete and unlocked, and local host/CDN/Learn servers available.
+steps:
+  - tool: restart-app
+    args:
+      bundleId: com.jinnie.app
+      activity: .MainActivity
+  - await:
+      visible: {text: Recent activity}
+      timeout: 15000
+  - await: {idle: true}
+  - tap: {text: Open all apps}
+  - await:
+      visible: {text: 'Your money, in order.'}
+      timeout: 10000
+  - await: {idle: true}
+  - tap: {text: Open Learn}
+  - await:
+      visible: {role: StaticText, text: Learn}
+      timeout: 15000
+  - await: {idle: true}

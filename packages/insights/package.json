@@ -1,0 +1,33 @@
+{
+  "name": "@jinnie/insights",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start --port 9005",
+    "bundle:android": "react-native bundle --platform android --entry-file index.js --dev false --bundle-output build/android/index.bundle",
+    "bundle:ios": "react-native bundle --platform ios --entry-file index.js --dev false --bundle-output build/ios/index.bundle",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@jinnie/sdk": "workspace:*",
+    "@module-federation/enhanced": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:"
+  },
+  "peerDependencies": {
+    "react-native-safe-area-context": "catalog:peer",
+    "react-native-svg": "catalog:peer",
+    "zustand": "catalog:peer"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:",
+    "@callstack/repack": "catalog:",
+    "@react-native-community/cli": "catalog:",
+    "@react-native/babel-preset": "catalog:",
+    "@react-native/typescript-config": "catalog:",
+    "@rspack/core": "catalog:",
+    "@swc/helpers": "catalog:",
+    "@types/react": "catalog:",
+    "typescript": "catalog:"
+  }
+}

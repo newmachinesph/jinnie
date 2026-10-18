@@ -1,0 +1,552 @@
+{
+  "gcash": {
+    "title": "File:GCash logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/GCash_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 10561,
+    "width": 610,
+    "height": 145,
+    "license": "Public domain",
+    "attribution": "Moonrivers",
+    "categories": [
+      "Bitmap version available",
+      "Bitmap version not available",
+      "GCash",
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "SVG text logos",
+      "Valid SVG created with Vector Magic:Text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "maya-wallet": {
+    "title": "File:Maya logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Maya_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 6642,
+    "width": 148,
+    "height": 43,
+    "license": "CC BY 4.0",
+    "attribution": "Maya Bank, Inc.\n\nPayMaya Philippines, Inc.",
+    "categories": [
+      "CC-BY-4.0",
+      "PLDT"
+    ],
+    "flags": []
+  },
+  "maya-bank": {
+    "title": "File:Maya logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Maya_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 6642,
+    "width": 148,
+    "height": 43,
+    "license": "CC BY 4.0",
+    "attribution": "Maya Bank, Inc.\n\nPayMaya Philippines, Inc.",
+    "categories": [
+      "CC-BY-4.0",
+      "PLDT"
+    ],
+    "flags": []
+  },
+  "ussc": {
+    "title": "File:USSC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/USSC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 3157,
+    "width": 512,
+    "height": 157,
+    "license": "CC BY-SA 4.0",
+    "attribution": "USSC Ltd.",
+    "categories": [
+      "CC-BY-SA-4.0",
+      "Self-published work",
+      "Unidentified logos"
+    ],
+    "flags": [
+      "<style"
+    ]
+  },
+  "gotyme": {
+    "title": "File:GoTyme Bank logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/GoTyme_Bank_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 14615,
+    "width": 564,
+    "height": 178,
+    "license": "Public domain",
+    "attribution": "JG Summit Holdings\n",
+    "categories": [
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "SVG text logos",
+      "Valid SVG created with Inkscape:Text logos",
+      "Vectorizations",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "uniondigital": {
+    "title": "File:UnionDigitalLogoDark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/UnionDigitalLogoDark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 2926,
+    "width": 512,
+    "height": 191,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Romanpavlyk",
+    "categories": [
+      "CC-BY-SA-4.0",
+      "Self-published work",
+      "Unidentified logos"
+    ],
+    "flags": []
+  },
+  "cimb-ph": {
+    "title": "File:CIMB Group Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/CIMB_Group_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 118506,
+    "width": 200,
+    "height": 31,
+    "license": "Public domain",
+    "attribution": "http://www.cimb.com/",
+    "categories": [
+      "CIMB Group Holdings",
+      "Logos of banks in Malaysia",
+      "PD textlogo",
+      "SVG logos of banks",
+      "SVG logos of companies of Malaysia",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": [
+      "<image",
+      "data:image"
+    ]
+  },
+  "bpi": {
+    "title": "File:Official BPI Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Official_BPI_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 8148,
+    "width": 512,
+    "height": 396,
+    "license": "CC BY 4.0",
+    "attribution": "Bank of the Philippine Islands",
+    "categories": [
+      "CC-BY-4.0",
+      "SVG logos with transparent background"
+    ],
+    "flags": [
+      "<style"
+    ]
+  },
+  "bdo": {
+    "title": "File:BDO Unibank (logo).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/BDO_Unibank_%28logo%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 3456,
+    "width": 415,
+    "height": 145,
+    "license": "Public domain",
+    "attribution": "Banco de Oro",
+    "categories": [
+      "BDO Unibank",
+      "Brands of the Philippines",
+      "Logos of banks",
+      "PD textlogo",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "unionbank": {
+    "title": "File:Unionbank 2018 logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Unionbank_2018_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 8210,
+    "width": 542,
+    "height": 166,
+    "license": "Public domain",
+    "attribution": "Union Bank of the Philippines",
+    "categories": [
+      "Gotham (typeface)",
+      "PD textlogo",
+      "SVG text logos",
+      "Unionbank (Philippines) logos"
+    ],
+    "flags": []
+  },
+  "rcbc": {
+    "title": "File:RCBC logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/RCBC_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 6928,
+    "width": 963,
+    "height": 806,
+    "license": "Public domain",
+    "attribution": "Rizal Commercial Banking Corporation\n",
+    "categories": [
+      "Bitmap version available",
+      "Commons User template with namespace",
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "Rizal Commercial Banking Corporation",
+      "SVG retouched pictures from raster",
+      "SVG text logos",
+      "Valid SVG created with Inkscape:Text logos",
+      "Vectorizations",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "landbank": {
+    "title": "File:Landbank.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Landbank.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 14018,
+    "width": 200,
+    "height": 95,
+    "license": "Public domain",
+    "attribution": "Land Bank of the Philippines",
+    "categories": [
+      "Logos of governments and government agencies of the Philippines",
+      "PD-PhilippinesGov"
+    ],
+    "flags": []
+  },
+  "pnb": {
+    "title": "File:Philippine-National-Bank-logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Philippine-National-Bank-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 25240,
+    "width": 571,
+    "height": 154,
+    "license": "Public domain",
+    "attribution": "Moonrivers",
+    "categories": [
+      "CC-PD-Mark",
+      "Logos of banks in the Philippines",
+      "PD-PhilippinesGov",
+      "PD Old",
+      "Philippine National Bank",
+      "SVG logos of the Philippines",
+      "Valid SVG created with Vector Magic:Logos"
+    ],
+    "flags": []
+  },
+  "eastwest": {
+    "title": "File:EastWest Bank 2011 h-pos logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/EastWest_Bank_2011_h-pos_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 29814,
+    "width": 355,
+    "height": 70,
+    "license": "Public domain",
+    "attribution": "EastWest Bank\n",
+    "categories": [
+      "Brands of the Philippines",
+      "CC-BY-SA-3.0-migrated",
+      "Commons User template with namespace",
+      "EastWest Bank",
+      "GFDL",
+      "License migration redundant",
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "SVG text logos",
+      "Self-published work",
+      "Valid SVG created with Inkscape:Text logos",
+      "Vectorizations",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "chinabank": {
+    "title": "File:Chinabank 2024.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chinabank_2024.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 10731,
+    "width": 938,
+    "height": 174,
+    "license": "Public domain",
+    "attribution": "Chinabank",
+    "categories": [
+      "Chinabank",
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "SVG logos of financial services companies",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "aub": {
+    "title": "File:Asia United Bank logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Asia_United_Bank_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 28056,
+    "width": 559,
+    "height": 156,
+    "license": "Public domain",
+    "attribution": "Consortium of Jacinto Ng, et. al and China United Trust &amp; Investment Corpora",
+    "categories": [
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "SVG text logos",
+      "Valid SVG created with Inkscape:Text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "pbcom": {
+    "title": "File:Philippines Bank of Communications Logo (2017).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Philippines_Bank_of_Communications_Logo_%282017%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 696956,
+    "width": 2919,
+    "height": 1468,
+    "license": "Public domain",
+    "attribution": "Philippines Bank of Communications",
+    "categories": [
+      "Bilingual Chinese-English logos",
+      "Chinese-language SVG logos",
+      "Logos of banks in the Philippines",
+      "PD textlogo",
+      "Philippine Bank of Communications",
+      "SVG logos of banks",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": [
+      "<image",
+      "data:image"
+    ]
+  },
+  "veterans-bank": {
+    "title": "File:Philippine Veterans Bank logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Philippine_Veterans_Bank_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 26327,
+    "width": 726,
+    "height": 121,
+    "license": "Public domain",
+    "attribution": "Philippine Veterans Bank",
+    "categories": [
+      "Invalid SVG created with Other tools:Text logos",
+      "PD textlogo",
+      "SVG text logos",
+      "Unidentified logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "ctbc-ph": {
+    "title": "File:CTBC-logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/CTBC-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 39847,
+    "width": 995,
+    "height": 296,
+    "license": "Public domain",
+    "attribution": "Coastal Television Broadcasting Company",
+    "categories": [
+      "Logos of companies",
+      "PD textlogo",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "hsbc-ph": {
+    "title": "File:HSBC 滙豐 (logo only).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/HSBC_%E6%BB%99%E8%B1%90_%28logo_only%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 3184,
+    "width": 88,
+    "height": 44,
+    "license": "Public domain",
+    "attribution": "​香港上海匯豐銀行",
+    "categories": [
+      "1983 logos",
+      "Black and white logos with transparent background",
+      "HSBC in Hong Kong",
+      "HSBC logos",
+      "PD textlogo",
+      "SVG logos of banks",
+      "SVG logos of banks in the United Kingdom",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": [
+      "<style"
+    ]
+  },
+  "standard-chartered-ph": {
+    "title": "File:Standard Chartered Logo (2021, Logo only).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 2142,
+    "width": 138,
+    "height": 219,
+    "license": "Public domain",
+    "attribution": "Standard Chartered",
+    "categories": [
+      "Blue, gray, green",
+      "Extracted images",
+      "Knots in logos",
+      "PD textlogo",
+      "SC letter combinations",
+      "SVG logos of banks",
+      "SVG logos of banks in the United Kingdom",
+      "SVG text logos",
+      "Standard Chartered Bank",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "payoneer": {
+    "title": "File:Payoneer logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Payoneer_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 149088,
+    "width": 512,
+    "height": 182,
+    "license": "Public domain",
+    "attribution": "Payoneer",
+    "categories": [
+      "Logos of companies based in New York (state)",
+      "Logos of payment systems",
+      "PD textlogo",
+      "Payoneer",
+      "SVG images with required raster graphics",
+      "SVG logos of companies of the United States",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": [
+      "<image",
+      "<style",
+      "data:image"
+    ]
+  },
+  "converge": {
+    "title": "File:Converge ICT logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Converge_ICT_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 13661,
+    "width": 471,
+    "height": 186,
+    "license": "Public domain",
+    "attribution": "ComClark Network and Technology Corporation",
+    "categories": [
+      "Brands of the Philippines",
+      "Converge ICT Solutions",
+      "Extracted images",
+      "PD textlogo",
+      "SVG text logos",
+      "Valid SVG created with Adobe Illustrator:Text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "smart": {
+    "title": "File:Smart 2022.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Smart_2022.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 3628,
+    "width": 240,
+    "height": 327,
+    "license": "Public domain",
+    "attribution": "Smart Automobile",
+    "categories": [
+      "2022 SVG logos",
+      "PD textlogo",
+      "SVG text logos",
+      "Smart logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "dito": {
+    "title": "File:Dito Telco logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Dito_Telco_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 13744,
+    "width": 454,
+    "height": 194,
+    "license": "Public domain",
+    "attribution": "Udenna Corporation",
+    "categories": [
+      "Bitmap version available",
+      "PD textlogo",
+      "SVG logos of companies of the Philippines",
+      "SVG text logos",
+      "Telecommunications companies of the Philippines",
+      "Valid SVG created with Adobe Illustrator:Text logos",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "sss": {
+    "title": "File:Social Security System (SSS).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Social_Security_System_%28SSS%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 6496,
+    "width": 640,
+    "height": 480,
+    "license": "Public domain",
+    "attribution": "Social Security System (Philippines)",
+    "categories": [
+      "PD-PhilippinesGov",
+      "PD textlogo",
+      "SVG text logos",
+      "Seals of the Government of the Philippines",
+      "Social Security System (Philippines)"
+    ],
+    "flags": []
+  },
+  "pagibig": {
+    "title": "File:Pag-IBIG.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Pag-IBIG.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 15916,
+    "width": 395,
+    "height": 427,
+    "license": "Public domain",
+    "attribution": "Home Development Mutual Fund",
+    "categories": [
+      "Logos of governments and government agencies of the Philippines",
+      "PD-PhilippinesGov"
+    ],
+    "flags": []
+  },
+  "philhealth": {
+    "title": "File:Philippine Health Insurance Corporation (PhilHealth).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Philippine_Health_Insurance_Corporation_%28PhilHealth%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 50466,
+    "width": 1024,
+    "height": 374,
+    "license": "Public domain",
+    "attribution": "Philippine Health Insurance Corporation",
+    "categories": [
+      "Logos of governments and government agencies of the Philippines",
+      "PD-PhilippinesGov",
+      "Philippine Health Insurance Corporation"
+    ],
+    "flags": []
+  },
+  "wise": {
+    "title": "File:Wise Logo 512x124.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Wise_Logo_512x124.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 1667,
+    "width": 512,
+    "height": 214,
+    "license": "Public domain",
+    "attribution": "Wise PLC",
+    "categories": [
+      "2023 SVG logos",
+      "Green logos with transparent background",
+      "PD textlogo",
+      "SVG logos of companies of the United Kingdom",
+      "SVG logos of financial services companies",
+      "SVG text logos",
+      "TOO-United States",
+      "Wise (company)",
+      "With trademark"
+    ],
+    "flags": []
+  },
+  "paypal": {
+    "title": "File:PayPal 2024 (Icon).svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/PayPal_2024_%28Icon%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "bytes": 1043,
+    "width": 512,
+    "height": 617,
+    "license": "Public domain",
+    "attribution": "PayPal (Original design by Pentagram)",
+    "categories": [
+      "PD textlogo",
+      "SVG logos of PayPal",
+      "SVG text logos",
+      "With trademark"
+    ],
+    "flags": [
+      "<style"
+    ]
+  }
+}

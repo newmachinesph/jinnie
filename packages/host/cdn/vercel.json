@@ -1,0 +1,23 @@
+{
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{"key": "Access-Control-Allow-Origin", "value": "*"}]
+    },
+    {
+      "source": "/(.*).bundle",
+      "headers": [
+        {"key": "Content-Type", "value": "application/javascript; charset=utf-8"},
+        {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+      ]
+    },
+    {
+      "source": "/(.*).json",
+      "headers": [{"key": "Cache-Control", "value": "public, max-age=60, must-revalidate"}]
+    }
+  ]
+}
